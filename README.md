@@ -8,112 +8,55 @@ Latihan ini bertujuan untuk mengasah pemahaman dasar tentang sintaks PHP Native,
 
 ```php
 <?php
-$nama = "Dino";
-echo "Halo nama saya $nama";
+$nama= "Dino"
+Echo "Halo nama saya . $nama;
 ?>
 ```
 
 ---
 
-## 2) Tuliskan kode PHP untuk menghitung luas persegi panjang dengan variabel panjang dan lebar.  
-**Hasil output harus:**
-
-```
-Luas persegi panjang dengan panjang 10 dan lebar 5 adalah 50
-```
+## 2) Perbaiki dan rapikan kode berikut agar bisa menghasilkan output yang benar:
 
 ```php
 <?php
-$panjang = 10;
-$lebar = 5;
-$luas = $panjang * $lebar;
-echo "Luas persegi panjang dengan panjang $panjang dan lebar $lebar adalah $luas";
+luas = 10 * 5
+echo "Luasnya adalah : " . luas
 ?>
 ```
 
 ---
 
-## 3) Buatlah script PHP yang menampilkan hasil penjumlahan dua angka menggunakan operator aritmatika.  
-**Ketentuan:**
-- Gunakan `echo` untuk menampilkan hasil.
-- Gunakan komentar untuk menjelaskan setiap baris kode.
+## 3) Perbaiki dan rapikan kode berikut untuk menampilkan hasil operasi aritmatika:
 
 ```php
 <?php
-// Mendefinisikan dua angka
-$angka1 = 7;
-$angka2 = 5;
-
-// Menjumlahkan kedua angka
-$hasil = $angka1 + $angka2;
-
-// Menampilkan hasil penjumlahan
-echo "Hasil penjumlahan $angka1 + $angka2 = $hasil";
+$a = 10;
+$b = 5;
+$c = a + b;
+Echo "Hasil: " $c;
 ?>
 ```
 
 ---
 
-## 4) Studi Kasus: Cetak Biodata Dinamis  
+## 4) Studi Kasus: Cetak Biodata Dinamis
+
 Buatlah sebuah script PHP yang mencetak biodata berikut:
-
-```
-Nama Lengkap  : Salman Fauzi
-Umur          : 22
-Hobi          : Coding, Musik
-Status        : Mahasiswa
-```
+- Nama Lengkap
+- Umur
+- Hobi
+- Status
 
 **Ketentuan:**
 - Gunakan variabel untuk setiap elemen biodata.
-- Output ditampilkan dalam format yang rapi seperti di atas.
+- Output ditampilkan dalam format yang rapi.
 - Gunakan penggabungan string.
-
-```php
-<?php
-$nama = "Salman Fauzi";
-$umur = 22;
-$hobi = "Coding, Musik";
-$status = "Mahasiswa";
-
-echo "Nama Lengkap  : " . $nama . "\n";
-echo "Umur          : " . $umur . "\n";
-echo "Hobi          : " . $hobi . "\n";
-echo "Status        : " . $status;
-?>
-```
-
-> **Catatan:** Jika dijalankan di browser, gunakan `<br>` untuk ganti baris.
 
 ---
 
-## 5) Studi Kasus: Sistem Penilaian Sederhana  
-Buat program PHP untuk menilai nilai ujian siswa dengan ketentuan:
+## 5) Studi Kasus: Sistem Penilaian Sederhana
 
+Buat program PHP untuk menilai nilai ujian siswa dengan ketentuan:
 - Nilai diinput lewat variabel.
 - Jika nilai ≥ 75, tampilkan "Lulus".
 - Jika nilai < 75, tampilkan "Tidak Lulus".
-
-**Contoh output:**
-```
-Nilai Anda: 82
-Status: Lulus
-```
-
-```php
-<?php
-$nilai = 82;
-
-echo "Nilai Anda: $nilai <br>";
-
-if ($nilai >= 75) {
-    echo "Status: Lulus";
-} else {
-    echo "Status: Tidak Lulus";
-}
-?>
-```
-
----
-
-Selamat mengerjakan!
